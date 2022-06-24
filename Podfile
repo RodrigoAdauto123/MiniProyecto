@@ -8,4 +8,5 @@ target 'MiniProyecto' do
 
   # Pods for MiniProyecto
   pod 'GoogleMaps'
+  pod 'Alamofire'
 end

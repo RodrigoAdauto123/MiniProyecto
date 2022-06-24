@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C0BBA521108D3377283C2D3 /* Pods_MiniProyecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10CF6200DFA1A4E604227BF /* Pods_MiniProyecto.framework */; };
 		89267B6F2865213600F08DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89267B6E2865213600F08DBE /* AppDelegate.swift */; };
 		89267B712865213600F08DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89267B702865213600F08DBE /* SceneDelegate.swift */; };
 		89267B732865213600F08DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89267B722865213600F08DBE /* ViewController.swift */; };
 		89267B762865213600F08DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89267B742865213600F08DBE /* Main.storyboard */; };
 		89267B782865213800F08DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89267B772865213800F08DBE /* Assets.xcassets */; };
 		89267B7B2865213800F08DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89267B792865213800F08DBE /* LaunchScreen.storyboard */; };
+		89E46D9A28667A91007199FD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E46D9928667A91007199FD /* Networking.swift */; };
+		D5341F10DBE74EAB75076B2B /* Pods_MiniProyecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B0A4E639C9738A6153718 /* Pods_MiniProyecto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		435C65EF275DCFE0F5613488 /* Pods-MiniProyecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProyecto.release.xcconfig"; path = "Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto.release.xcconfig"; sourceTree = "<group>"; };
+		3DF16F61BC1B38B96636C45E /* Pods-MiniProyecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProyecto.debug.xcconfig"; path = "Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto.debug.xcconfig"; sourceTree = "<group>"; };
 		89267B6B2865213600F08DBE /* MiniProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniProyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89267B6E2865213600F08DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89267B702865213600F08DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +27,9 @@
 		89267B772865213800F08DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89267B7A2865213800F08DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89267B7C2865213800F08DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B55EC262B06FB19228C82ACE /* Pods-MiniProyecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProyecto.debug.xcconfig"; path = "Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto.debug.xcconfig"; sourceTree = "<group>"; };
-		E10CF6200DFA1A4E604227BF /* Pods_MiniProyecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProyecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E46D9928667A91007199FD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		BF9B0A4E639C9738A6153718 /* Pods_MiniProyecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniProyecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B83D56A7FFE68B81F31FFF /* Pods-MiniProyecto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniProyecto.release.xcconfig"; path = "Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,20 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C0BBA521108D3377283C2D3 /* Pods_MiniProyecto.framework in Frameworks */,
+				D5341F10DBE74EAB75076B2B /* Pods_MiniProyecto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196F46BBD138357F3D0D0F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B0A4E639C9738A6153718 /* Pods_MiniProyecto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89267B622865213600F08DBE = {
 			isa = PBXGroup;
 			children = (
+				89E46D9928667A91007199FD /* Networking.swift */,
 				89267B6D2865213600F08DBE /* MiniProyecto */,
 				89267B6C2865213600F08DBE /* Products */,
 				EBB9128C0A5A5EB176544E9E /* Pods */,
-				8973FFD5C3825A845985DB1F /* Frameworks */,
+				196F46BBD138357F3D0D0F50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,21 +85,12 @@
 			path = MiniProyecto;
 			sourceTree = "<group>";
 		};
-		8973FFD5C3825A845985DB1F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E10CF6200DFA1A4E604227BF /* Pods_MiniProyecto.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EBB9128C0A5A5EB176544E9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B55EC262B06FB19228C82ACE /* Pods-MiniProyecto.debug.xcconfig */,
-				435C65EF275DCFE0F5613488 /* Pods-MiniProyecto.release.xcconfig */,
+				3DF16F61BC1B38B96636C45E /* Pods-MiniProyecto.debug.xcconfig */,
+				F2B83D56A7FFE68B81F31FFF /* Pods-MiniProyecto.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -99,11 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89267B7F2865213800F08DBE /* Build configuration list for PBXNativeTarget "MiniProyecto" */;
 			buildPhases = (
-				9E0A77964A2DF1DAE8A62F07 /* [CP] Check Pods Manifest.lock */,
+				F4C31DCC6CA3522CF7BC8936 /* [CP] Check Pods Manifest.lock */,
 				89267B672865213600F08DBE /* Sources */,
 				89267B682865213600F08DBE /* Frameworks */,
 				89267B692865213600F08DBE /* Resources */,
-				8E0534D2D011D7F89CA8BBD3 /* [CP] Copy Pods Resources */,
+				FA33D786BAAA9377055F444C /* [CP] Embed Pods Frameworks */,
+				14170219C66BDE3F5DBD2BAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,7 +164,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E0534D2D011D7F89CA8BBD3 /* [CP] Copy Pods Resources */ = {
+		14170219C66BDE3F5DBD2BAB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +181,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9E0A77964A2DF1DAE8A62F07 /* [CP] Check Pods Manifest.lock */ = {
+		F4C31DCC6CA3522CF7BC8936 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,6 +203,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FA33D786BAAA9377055F444C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniProyecto/Pods-MiniProyecto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,6 +230,7 @@
 				89267B732865213600F08DBE /* ViewController.swift in Sources */,
 				89267B6F2865213600F08DBE /* AppDelegate.swift in Sources */,
 				89267B712865213600F08DBE /* SceneDelegate.swift in Sources */,
+				89E46D9A28667A91007199FD /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,13 +374,15 @@
 		};
 		89267B802865213800F08DBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B55EC262B06FB19228C82ACE /* Pods-MiniProyecto.debug.xcconfig */;
+			baseConfigurationReference = 3DF16F61BC1B38B96636C45E /* Pods-MiniProyecto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DUR8QL52MQ;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniProyecto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -382,13 +405,15 @@
 		};
 		89267B812865213800F08DBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 435C65EF275DCFE0F5613488 /* Pods-MiniProyecto.release.xcconfig */;
+			baseConfigurationReference = F2B83D56A7FFE68B81F31FFF /* Pods-MiniProyecto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DUR8QL52MQ;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MiniProyecto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
